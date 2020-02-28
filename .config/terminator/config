@@ -1,0 +1,239 @@
+[global_config]
+  borderless = True
+  enabled_plugins = TerminatorThemes, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  scroll_tabbar = True
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 8bc8b894-1740-4d84-bd71-5ddbe60bd40a
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 65:24
+      size = 2495, 1416
+      title = /bin/bash
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 1224
+      ratio = 0.491783567134
+      type = HPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 707
+      ratio = 0.501412429379
+      type = VPaned
+    [[[child5]]]
+      order = 1
+      parent = child1
+      position = 707
+      ratio = 0.501412429379
+      type = VPaned
+    [[[terminal3]]]
+      order = 0
+      parent = child2
+      profile = eugenek
+      type = Terminal
+      uuid = 8bc8b894-1740-4d84-bd71-5ddbe60bd40a
+    [[[terminal4]]]
+      order = 1
+      parent = child2
+      profile = darcula
+      type = Terminal
+      uuid = 8eb9cbc0-ccd7-48de-9136-75ebb5715196
+    [[[terminal6]]]
+      order = 0
+      parent = child5
+      profile = darcula
+      type = Terminal
+      uuid = 1f6f2873-e15b-499a-a6da-0a6eae1cd068
+    [[[terminal7]]]
+      order = 1
+      parent = child5
+      profile = darcula
+      type = Terminal
+      uuid = cd620af7-7ad1-4eb7-bcea-8298b17c531b
+  [[New Layout]]
+    [[[child0]]]
+      order = 0
+      parent = ""
+      position = 65:24
+      size = 1855, 1056
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 927
+      type = HPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 528
+      type = VPaned
+    [[[child5]]]
+      order = 1
+      parent = child1
+      position = 528
+      type = VPaned
+    [[[terminal3]]]
+      order = 0
+      parent = child2
+      profile = eugenek
+      type = Terminal
+    [[[terminal4]]]
+      order = 1
+      parent = child2
+      profile = eugenek
+      type = Terminal
+    [[[terminal6]]]
+      order = 0
+      parent = child5
+      profile = eugenek
+      type = Terminal
+    [[[terminal7]]]
+      order = 1
+      parent = child5
+      profile = eugenek
+      type = Terminal
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#1f1d45"
+    cursor_color = "#efbf38"
+    font = Ubuntu Mono 12
+    foreground_color = "#f8dcc0"
+    palette = "#050404:#bd0013:#4ab118:#e7741e:#0f4ac6:#665993:#70a598:#f8dcc0:#4e7cbf:#fc5f5a:#9eff6e:#efc11a:#1997c6:#9b5953:#c8faf4:#f6f5fb"
+    scrollback_infinite = True
+    use_system_font = False
+  [[3024 Day]]
+    background_color = "#f7f7f7"
+    cursor_color = "#4a4543"
+    foreground_color = "#4a4543"
+    palette = "#090300:#db2d20:#01a252:#fded02:#01a0e4:#a16a94:#b5e4f4:#a5a2a2:#5c5855:#e8bbd0:#3a3432:#4a4543:#807d7c:#d6d5d4:#cdab53:#f7f7f7"
+  [[3024 Night]]
+    background_color = "#090300"
+    cursor_color = "#a5a2a2"
+    foreground_color = "#a5a2a2"
+    palette = "#090300:#db2d20:#01a252:#fded02:#01a0e4:#a16a94:#b5e4f4:#a5a2a2:#5c5855:#e8bbd0:#3a3432:#4a4543:#807d7c:#d6d5d4:#cdab53:#f7f7f7"
+  [[AdventureTime]]
+    background_color = "#1f1d45"
+    cursor_color = "#efbf38"
+    foreground_color = "#f8dcc0"
+    palette = "#050404:#bd0013:#4ab118:#e7741e:#0f4ac6:#665993:#70a598:#f8dcc0:#4e7cbf:#fc5f5a:#9eff6e:#efc11a:#1997c6:#9b5953:#c8faf4:#f6f5fb"
+    scrollback_infinite = True
+  [[Afterglow]]
+    background_color = "#212121"
+    cursor_color = "#d0d0d0"
+    font = Ubuntu Mono 12
+    foreground_color = "#d0d0d0"
+    palette = "#151515:#ac4142:#7e8e50:#e5b567:#6c99bb:#9f4e85:#7dd6cf:#d0d0d0:#505050:#ac4142:#7e8e50:#e5b567:#6c99bb:#9f4e85:#7dd6cf:#f5f5f5"
+    scrollback_infinite = True
+    use_system_font = False
+  [[AlienBlood]]
+    background_color = "#0f1610"
+    cursor_color = "#73fa91"
+    font = Ubuntu Mono 12
+    foreground_color = "#637d75"
+    palette = "#112616:#7f2b27:#2f7e25:#717f24:#2f6a7f:#47587f:#327f77:#647d75:#3c4812:#e08009:#18e000:#bde000:#00aae0:#0058e0:#00e0c4:#73fa91"
+    scrollback_infinite = True
+    use_system_font = False
+  [[BirdsOfParadise]]
+    background_color = "#2a1f1d"
+    cursor_color = "#573d26"
+    font = Ubuntu Mono 12
+    foreground_color = "#e0dbb7"
+    palette = "#573d26:#be2d26:#6ba18a:#e99d2a:#5a86ad:#ac80a6:#74a6ad:#e0dbb7:#9b6c4a:#e84627:#95d8ba:#d0d150:#b8d3ed:#d19ecb:#93cfd7:#fff9d5"
+    scrollback_infinite = True
+    use_system_font = False
+  [[Bloody]]
+    background_color = "#1e1f29"
+    cursor_color = "#f9dc5c"
+    font = Ubuntu Mono 12
+    palette = "#2e3436:#ff512f:#b2ffa9:#fffd82:#3185fc:#dd2476:#66d7d1:#f2efea:#555753:#ff512f:#b2ffa9:#fffd82:#3185fc:#dd2476:#66d7d1:#f2efea"
+    scrollback_infinite = True
+    use_system_font = False
+  [[ChallengerDeep]]
+    background_color = "#1e1c31"
+    cursor_color = "#fbfcfc"
+    foreground_color = "#cbe1e7"
+    palette = "#141228:#ff5458:#62d196:#ffb378:#65b2ff:#906cff:#63f2f1:#a6b3cc:#565575:#ff8080:#95ffa4:#ffe9aa:#91ddff:#c991e1:#aaffe4:#cbe3e7"
+  [[DotGov]]
+    background_color = "#262c35"
+    cursor_color = "#d9002f"
+    foreground_color = "#ebebeb"
+    palette = "#191919:#bf091d:#3d9751:#f6bb34:#17b2e0:#7830b0:#8bd2ed:#ffffff:#191919:#bf091d:#3d9751:#f6bb34:#17b2e0:#7830b0:#8bd2ed:#ffffff"
+  [[Dracula]]
+    background_color = "#1e1f29"
+    cursor_color = "#aaaaaa"
+    font = Ubuntu Mono 12
+    foreground_color = "#f8f8f2"
+    palette = "#44475a:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#94a3a5:#000000:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#ffffff"
+    scrollback_infinite = True
+    use_system_font = False
+  [[FirefoxDev]]
+    background_color = "#0e1011"
+    cursor_color = "#708284"
+    font = Ubuntu Mono 10
+    foreground_color = "#7c8fa4"
+    palette = "#002831:#e63853:#5eb83c:#a57706:#359ddf:#d75cff:#4b73a2:#dcdcdc:#001e27:#e1003f:#1d9000:#cd9409:#006fc0:#a200da:#005794:#e2e2e2"
+    use_system_font = False
+  [[aci]]
+  [[darcula]]
+    background_color = "#2b2b2b"
+    cursor_color = "#A9B7C6"
+    font = Ubuntu Mono 12
+    foreground_color = "#a9b7c6"
+    palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+    scrollback_infinite = True
+    use_system_font = False
+  [[default2]]
+    background_color = "#002b36"
+    font = Ubuntu Mono 18
+    foreground_color = "#839496"
+    icon_bell = False
+    scrollback_infinite = True
+    show_titlebar = False
+    use_system_font = False
+  [[eugenek2]]
+    background_color = "#5f819d"
+    cursor_color = "#11e836"
+    font = Ubuntu Mono 18
+    foreground_color = "#ffffff"
+    icon_bell = False
+    scrollback_infinite = True
+    scrollback_lines = 20000
+    show_titlebar = False
+    use_system_font = False
+  [[eugenek3]]
+    cursor_color = "#aaaaaa"
+    font = Ubuntu Mono 12
+    scroll_background = False
+    scrollback_infinite = True
+    scrollback_lines = 20000
+    use_system_font = False
+  [[eugenek4]]
+    background_type = image
+    font = Ubuntu Mono 12
+    scroll_background = False
+    scrollback_infinite = True
+    scrollback_lines = 20000
+    use_system_font = False
+  [[eugenek5]]
+    background_type = image
+    font = Ubuntu Mono 12
+    scroll_background = False
+    scrollback_infinite = True
+    scrollback_lines = 20000
+    use_system_font = False
+  [[eugenek6]]
+    font = Ubuntu Mono 12
+    palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+    scroll_background = False
+    scrollback_infinite = True
+    scrollback_lines = 20000
+    use_system_font = False

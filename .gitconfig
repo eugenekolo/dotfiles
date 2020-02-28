@@ -1,0 +1,13 @@
+[user]
+    email = eugene@eugenekolo.com
+    name = Eugene Kolo
+[color]
+    ui = auto
+[submodule]
+    recurse = true
+[alias]
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(cyan)%d%Creset %s %Cgreen(%cr)%Creset - %aN' --abbrev-commit --date=relative
+    diff = diff --color
+[grep]
+    extendRegexp = true
+    lineNumber = true

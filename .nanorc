@@ -1,0 +1,17 @@
+# include syntax highlighting
+include "~/.nano/*.nanorc"
+
+set tabsize 4
+set tabstospaces
+set smooth
+set linenumbers
+unset backup
+
+bind ^Z undo all
+bind ^Y redo all
+bind ^F whereis all
+bind ^P findprevious all
+bind ^N findnext all
+bind ^R replace all
+bind ^G gotoline all
+bind ^A unindent all
