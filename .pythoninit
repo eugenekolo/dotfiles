@@ -1,2 +1,11 @@
 from pwn import *
 import os, re, sys, time, random, urllib, urllib2, datetime, itertools, subprocess, multiprocessing
+
+# enable syntax completion
+try:
+    import readline
+except ImportError:
+    print("Module readline not available.")
+else:
+    import rlcompleter
+    readline.parse_and_bind("tab: complete")
